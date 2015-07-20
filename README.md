@@ -1,7 +1,7 @@
 Debian 8.1.0 jessie x64 LAMP stack
 ---
 
-**Please note these boxes are configurated for Danish keymap, mirrors, timezone, and common European/Scandinavian locales.**
+*Please note this box is configurated for Danish keymap, mirrors, timezone, and common European/Scandinavian locales.*
 
 ### Provider
 
