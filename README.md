@@ -1,20 +1,26 @@
-Debian 7.6 wheezy LAMP stack
+Debian 8.1.0 jessie x64 LAMP stack
 ---
 
-**Please notice this Vagrant box is configurated for Danish keymap and timezone, and common European/Scandinavian locales.**
+**Please note these boxes are configurated for Danish keymap, mirrors, timezone, and common European/Scandinavian locales.**
 
- - Apache 2 MPM Worker
- - PHP-FPM
- - MySQL
+### Provider
+
+VirtualBox 5.0 with Guest Additions installed.
+
+### Software
+
+ - Apache 2.4 MPM Worker
+ - PHP-FPM 5.6
+ - MySQL 5.5
  - Git
  - Composer
  - Ajenti server admin panel
- - Dnsmasq (wildcard for .local domains)
+ - Dnsmasq (wildcard for .any domains configurated in Vagrantfile)
 
 Vagrant box
 ---
 
-IP address: 192.168.120.10
+IP address: Configurated in Vagrantfile
 
 Root password: vagrant
 
@@ -25,7 +31,9 @@ Password: vagrant
 SSH
 ---
 
-Port number: 22
+IP address: 127.0.0.1
+
+Port number: 2222
 
 Username: vagrant
 
@@ -37,12 +45,6 @@ MySQL
 Username: root
 
 Password: test
-
-Web server directories
-
- - /http (Sites)
- - /logs (Site logs)
- - /vhosts (Virtual host configurations)
 
 License
 ---

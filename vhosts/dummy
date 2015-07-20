@@ -1,6 +1,0 @@
-<VirtualHost *:80>
-	ServerName dummy.local
-	DocumentRoot /srv/http/dummy/public
-	CustomLog /srv/logs/dummy/access.log combined
-	ErrorLog /srv/logs/dummy/error.log
-</VirtualHost>
